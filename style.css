@@ -1,0 +1,246 @@
+/*   
+Theme Name: Provoker
+Theme URI: https://github.com/borys-mch/Provoker
+Version: 1.1
+Tags: development, html5, bootstrap
+Description: 
+Author: Boris.Mch
+Author URI: http://masiv.top
+*/
+
+a {
+    color: #860202;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    color: #540303;
+    text-decoration: underline;
+}
+
+@media (min-width: 979px) { 
+	ul.nav li.dropdown.show-on-hover:hover > ul.dropdown-menu {
+		display: block;
+	}
+	.comment-list .children {
+		padding: 0;
+		margin-left: 74px;
+		padding-bottom: 15px;
+	}
+	.comment-list .media {
+		margin-top: 0;
+	}
+}
+@media (max-width: 768px) { 
+		#bloginfo{
+			font-size: 60px;
+		}
+		#d-non{
+			display: none;
+		}
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+header {
+	background: #1B1B1B;
+}
+.logo {
+	width: 160px;
+}
+.re {
+    margin: 5px 0px;
+}
+.site-bloginfo {
+	font-size: 76px;
+    font-family: 'Lobster', cursive;
+    color: #B10707;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+.site-description {
+	color: #A9A8A8;
+    font-size: 20px;
+    margin-top: -10px;
+}
+.hr-h {
+	margin-top: 0px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 3px solid #F00;
+}
+.w-hp {
+	/* margin-top: 20px; */
+}
+.navbar-default {
+	background-color: #7C0F0F;
+
+}
+.navbar{
+	position: relative;
+    min-height: 40px;
+    border-top: 2px solid #F00;
+    border-bottom: 0px;
+	border-left: 0px;
+    border-right: 0px;
+	border-radius: 0px;
+    margin-bottom: 0px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #B10707;
+    outline: 0;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #FFFFFF;
+    background-color: rgba(231, 231, 231, 0.18);
+}
+.navbar-default .navbar-nav>li>a {
+    color: #F7F7F7;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #C3C3C3;
+    background-color: transparent;
+}
+
+.widget {
+	margin-top: 20px;
+}
+.widgettitle {
+	font-size: 24px;
+    color: #fff;
+    padding: 5px 10px;
+    background: #1B1B1B;
+    border-bottom: 3px solid #F00;
+}
+
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #B73333;
+    border-color: #B73333;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #B73333;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
